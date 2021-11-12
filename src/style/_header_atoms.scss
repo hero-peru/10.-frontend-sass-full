@@ -1,0 +1,49 @@
+/*----- HEADER ATOMS -----*/
+.nav{
+
+    &--logo{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 60px;
+        height: 50px;    
+        border: 0px;
+        border-style: none;  
+    }
+
+    &--ul{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    &--li{
+        list-style-type: none;
+        padding-left: 20px;
+
+        a{
+            @extend %fontsRaleway500;
+            font-size: 14px;
+            line-height: 16.44px;
+            text-decoration: none;
+            color: $color_base_1;
+            font-weight: bold;
+            cursor:pointer;
+        }
+
+        a:hover{            
+            color: $color_branding_1;
+            border-bottom: 5px solid $color_branding_1;
+            padding: 10px;
+        }
+
+        a:active{            
+            color: $color_branding_2;
+            border-bottom: 5px dotted $color_branding_2;            
+            font-weight: bold;
+            padding: 10px;
+        }
+
+    }
+    
+}

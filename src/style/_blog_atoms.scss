@@ -1,0 +1,87 @@
+/*----- BLOG ATOMS -----*/
+.blogTitle{
+
+    &--title{
+        @extend %fontsPoppins500;
+        color:$color_branding_3;
+        font-size: 28px;
+        line-height: 42px;  
+    }    
+}
+
+.blogDetail{
+    
+    &--card{
+        
+        width: auto;
+        height: auto;
+
+        img{
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position:center;            
+            border : 4px solid $color_branding_4;  
+        }
+
+        .imagen--s{
+            height: 107px;
+        }
+
+        .imagen--xl{
+            height: 207px;
+        }
+    }
+
+    &--title{
+        @extend %fontsPoppins600;
+        color:$color_base_0;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    &--text{
+        @extend %fontsRaleway400;
+        color:$color_base_0;
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    &--textExtra{
+        @extend %fontsRaleway400;
+        color: $color_base_1;
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    &--textMore{
+        color: $color_branding_1;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    
+    &--textSend{
+        @extend %fontsRaleway400;
+        padding-left: 15px;
+        border: 1px solid #C0C0C0;
+        border-radius:8px 0 0 8px ;
+        font-size: 13px;
+        line-height: 15.26px;
+        width: 181px;
+        flex-grow: 1;
+        height: 50px;
+    }
+
+    &--buttonSend{
+        @extend %fontsRaleway700;
+        border: none;
+        border-radius:0 8px 8px 0 ;
+        font-size: 13px;
+        line-height: 15.26px;
+        background-color: $color_branding_1;
+        color: #EDE2FA;
+        flex-grow: 1;
+        height: 50px;
+    }
+}

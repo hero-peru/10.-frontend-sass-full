@@ -1,0 +1,22 @@
+/*----- SERVICE ORGANISM -----*/
+.containerService{
+
+    margin-top: 105px;
+
+    &__title{
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 15% minmax(70%,1fr) 15%);
+        grid-auto-rows: auto;
+
+    }
+
+    &__detail{
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 25% minmax(50%,1fr) 25%);
+        grid-auto-rows: auto;
+
+    }
+    
+}

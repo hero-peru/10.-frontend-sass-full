@@ -1,0 +1,35 @@
+/*----- FOOTER ATOMS -----*/
+
+.footer{
+    hr{
+        height: 5px;
+        background-color: $color_branding_2;
+        border: none;
+    }
+}
+
+.footerGroup1{
+
+    &--title{
+        @extend %fontsRaleway500;
+        color:$color_branding_2;
+        font-size: 28px;
+        line-height: 35px;
+        text-align: center;
+    }    
+}
+
+.footerGroup3{
+    &--title{
+        @extend %fontsRaleway400;
+        color:$color_base_1;
+        font-size: 12px;
+        line-height: 14.09px;  
+        
+        i[class="fas fa-heart"]{
+            color: red;
+        }
+
+    }
+    
+}

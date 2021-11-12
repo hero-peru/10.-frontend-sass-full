@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/font_icons/fontawesome/css/all.css">
+    <link rel="stylesheet" href="./src/style/reset.css">
+    <link rel="stylesheet" href="./dist/style.css">    
+    <title>FRONTEND - SASS - FULL</title>
+</head>
+<body>
+    
+    <head>
+
+        <div class="containerHeader">        
+            <div></div>
+            <div class="containerNav">
+                <div class="containerNav__image">
+                    <img  class="nav--logo" src="./src/image/logo.png">
+                </div>
+                <div class="containerNav__menu">
+                    <ul class="nav--ul">
+                        <li class="nav--li"><a href="">Sobre mi</a></li>
+                        <li class="nav--li"><a href="">Portafolio</a></li>
+                        <li class="nav--li"><a href="">Servicios</a></li>
+                        <li class="nav--li"><a href="">Blog</a></li>
+                        <li class="nav--li"><a href="">Contacto</a></li>
+                    </ul>
+                </div>            
+            </div>
+            <div></div>
+        </div>
+        
+    </head>
+
+    <main>
+
+        <div class="containerAvatar">
+            <div></div>
+            <div class="avatarDetail">
+                <div class="avatarLeft">
+                    <div class="avatarLeft--texto1"><p>Hola, Hello</p></div>
+                    <div class="avatarLeft--texto2"><p>Soy Hector Rodriguez</p></div>
+                    <div class="avatarLeft--texto3"><p>Front end Developer</p></div>
+                    <div class="avatarLeft--texto4"><p> Gracias por visitar mi pagina, en esta encontraras informacion sobre mi, mi experiencia, los servicios que ofrezco, algunas cosas de las que me gusta investigar y podras contactarme y contarme sobre ti.</p></div>
+                    <div class="avatarLeft grupoButtonIcon">
+                        <button class="avatarLeft--button">Descargar CV</button>
+                        <div class="avatarLeft--icon">                
+                            <i class="avatarLeft--linkedin fab fa-linkedin"></i>
+                            <i class="avatarLeft--github fab fa-github"></i>
+                            <i class="avatarLeft--codepen fab fa-codepen"></i>
+                            <i class="avatarLeft--email fas fa-envelope"></i>
+                            <i class="avatarLeft--whatsapp fab fa-whatsapp"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="avatarCenter">
+                    <div class="avatarCenter--circle">
+                        <img src="./src/image/foto_avatar.png" class="avatarCenter--image">
+                    </div>
+                </div>
+                <div class="avatarRight">
+                    <div class="avatarRight--cuadro1"><p>4.6 mill.</p></div>
+                    <div class="avatarRight--cuadro2">
+                        <i class="fas fa-check"></i>
+                        <p>Me gusta</p>
+                    </div>
+                    <button class="avatarRight--buttonShared">Compartir</button>
+                    <button class="avatarRight--buttonTweet">
+                        <i class="avatarRight--twitter fab fa-twitter"></i>
+                        <p>Tweet</p>
+                    </button>
+                </div>
+            </div>
+            <div></div>
+        </div>
+
+        <div class="containerDown">
+            <div class="downCenter">
+                <div class="downCenter--icon">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="downCenter--texto">
+                    <p>Down</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="containerPortfolio">
+
+            <div></div>
+            <div>
+                <div class="portfolioTitle">
+                    <div class="portfolioTitle--title">
+                        <p>PORTFOLIO</p>
+                    </div>
+                </div>
+                
+                <div class="portfolioDetail">
+                    <div class="portfolioDetail--card"><img class="portfolioDetail--card--imagen-item" src="./src/image/porfolio_item.png"><img src="./src/image/porfolio_1.png"> </div>
+                    <div class="portfolioDetail--card"><img class="portfolioDetail--card--imagen-item" src="./src/image/porfolio_item.png"><img src="./src/image/porfolio_2.png"> </div>
+                    <div class="portfolioDetail--card"><img class="portfolioDetail--card--imagen-item" src="./src/image/porfolio_item.png"><img src="./src/image/porfolio_3.png"> </div>
+                    <div class="portfolioDetail--card"><img class="portfolioDetail--card--imagen-item" src="./src/image/porfolio_item.png"><img src="./src/image/porfolio_4.png"> </div>
+                    <div class="portfolioDetail--card"><img class="portfolioDetail--card--imagen-item" src="./src/image/porfolio_item.png"><img src="./src/image/porfolio_5.png"> </div>
+                    <div class="portfolioDetail--card"><img class="portfolioDetail--card--imagen-item" src="./src/image/porfolio_item.png"><img src="./src/image/porfolio_6.png"> </div>
+                    <div class="portfolioDetail--card"><img class="portfolioDetail--card--imagen-item" src="./src/image/porfolio_item.png"><img src="./src/image/porfolio_7.png"> </div>
+                    <div class="portfolioDetail--card"><img class="portfolioDetail--card--imagen-item" src="./src/image/porfolio_item.png"><img src="./src/image/porfolio_8.png"> </div>
+                </div>
+            </div>
+            <div></div>        
+        </div>
+
+        <div class="containerService">
+
+            <div class="containerService__title">
+
+                <div>1</div>
+                <div>
+                    
+                    <div class="serviceTitle">
+                        <div class="serviceTitle--title">
+                            <p>SERVICES</p>
+                        </div>
+                    </div>
+                                
+                </div>
+                <div>3</div>
+
+            </div>
+
+            <div class="containerService__detail">
+
+                <div></div>
+                <div>
+                    
+                    <div class="serviceDetail">
+                        <div class="serviceDetail--card"><img src="./src/image/service_1.png"></div>
+                        <div class="serviceDetail--card"><img src="./src/image/service_2.png"></div>
+                        <div class="serviceDetail--card"><img src="./src/image/service_3.png"></div>
+                        <div class="serviceDetail--card"><img src="./src/image/service_4.png"></div>
+                        <div class="serviceDetail--card"><img src="./src/image/service_5.png"></div>
+                        <div class="serviceDetail--card"><img src="./src/image/service_6.png"></div>
+                    </div>
+                    
+                </div>
+                <div></div>
+
+            </div>
+
+        </div>
+
+        <div class="containerBlog">
+
+            <div></div>
+            <div>
+
+                <div class="blogTitle">
+                    <div class="blogTitle--title">
+                        <p>BLOG</p>
+                    </div>
+                </div>
+                
+                <div class="blogDetail">
+                    <div class="blogDetail__column1">                      
+                        <div class="blogDetail--card"><img class="imagen--xl" src="./src/image/blog_1.png"></div>
+                        <div class="blogDetail--title">
+                            <p>JS El nuevo Rey</p>
+                        </div>
+                        <div class="blogDetail--text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipisc,... 
+                                <div class="blogDetail--textMore">Leer mas</div></p>
+                        </div>
+                    </div>
+                    <div class="blogDetail__column2">
+                        <div class="blogDetail--title">
+                            <p>CSS3 ANIMATIONS</p>
+                        </div>
+                        <div class="blogDetail--text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing , consectetur adipisc,... 
+                                <div class="blogDetail--textMore">Leer mas</div></p>
+                        </div>
+                        <div class="blogDetail--card"><img class="imagen--xl" src="./src/image/blog_2.png"></div>
+                    </div>
+                    <div class="blogDetail__column3">
+                        <div class="blogDetail--card"><img class="imagen--xl" src="./src/image/blog_3.png"></div>
+                        <div class="blogDetail--title">
+                            <p>JS Engine</p>
+                        </div>
+                        <div class="blogDetail--text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing , consectetur adipisc,... <div class="blogDetail--textMore">Leer mas</div></p>
+                        </div>                        
+                    </div>
+                    <div class="blogDetail__column4">
+                        <div class="group1">
+                            <div class="blogDetail--title">
+                                <p>Javascript animation</p>
+                            </div>
+                            <div class="blogDetail--text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing , consectetur adipisc,... <div class="blogDetail--textMore">Leer mas</div></p>
+                            </div>
+                            <div class="blogDetail--card"><img class="imagen--s" src="./src/image/blog_4.png"></div>
+                        </div>
+                        <div class="group2">
+                            <div class="blogDetail--textExtra">
+                                <p>Nos gusta escribir y compartir sobre tecnologia, diseño, tendencias, y muchas cosas mas. Si te gustaria recibir nuestras pubicaciones subscribete </p>
+                            </div>
+                            <form class="group2__formSend">
+                                <input class="blogDetail--textSend" name="blogSend" type="text" placeholder="E-mail">
+                                <button class="blogDetail--buttonSend" type="submit">Suscríbete</button>
+                            </form>
+                        </div>
+                    </div>                                                                                
+                </div>
+
+            </div>
+            <div></div>
+
+        </div>
+
+        <div class="containerContact">
+
+            <div></div>
+            <div>
+                <div class="contactTitle">
+                    <div class="contactTitle--title">
+                        <p>CONTACT</p>
+                    </div>
+                </div>
+
+                <div class="contactDetail">
+                    
+                    <form class="contactDetailForm" method="get">
+
+                        <div class="contactDetailForm__groupName">
+                            <input name="form_name" class="contactDetailForm--name" type="text" placeholder="Nombre">
+                            <input name="form_phone" class="contactDetailForm--phone" type="text" placeholder="Teléfono">
+                        </div>
+
+                        <div class="contactDetailForm__groupProject">
+                            <select class="contactDetailForm--proy" name="form_select_proy">
+                                <option value="proyecto0">Tipo de proyecto</option>
+                                <option value="proyecto1">Proyecto 1</option>
+                                <option value="proyecto2">Proyecto 2</option>
+                                <option value="proyecto3">Proyecto 3</option>
+                                <option value="proyecto4">Proyecto 4</option>
+                                <option value="proyecto5">Proyecto 5</option>
+                            </select>
+                            <select class="contactDetailForm--presu" name="form_select_presu">
+                                <option value="presu0">Presupuesto</option>
+                                <option value="presu1">Presupuesto 1</option>
+                                <option value="presu2">Presupuesto 2</option>
+                                <option value="presu3">Presupuesto 3</option>
+                                <option value="presu4">Presupuesto 4</option>
+                                <option value="presu5">Presupuesto 5</option>
+                            </select>
+                        </div>
+                        <div class="contactDetailForm__groupText">
+                            <textarea name="form_text" class="contactDetailForm--text" placeholder="Cuéntanos más"></textarea>
+                    </div>
+
+                    <div class="contactDetailForm__groupButton">
+                        <button class="contactDetailForm--button" type="submit">Enviar</button>
+                    </div>
+
+                    </form>
+                    
+                </div>
+
+            </div>
+            <div></div>        
+        </div>
+        
+    </main>
+
+    <footer class="footer">
+        <hr>
+        <div class="containerFooter">
+            <div></div>
+            <div class="footerGroup">
+                <div class="footerGroup__1">
+                    <div class="containerNav__image">
+                        <img  class="nav--logo" src="./src/image/logo.png">
+                    </div>
+                    <div class="footerGroup1--title">
+                        <p>GRACIAS</p>
+                        <p>POR VISITARNOS</p>
+                    </div>
+                    <div class="avatarLeft--icon">                
+                        <i class="avatarLeft--linkedin fab fa-linkedin"></i>
+                        <i class="avatarLeft--github fab fa-github"></i>
+                        <i class="avatarLeft--codepen fab fa-codepen"></i>
+                        <i class="avatarLeft--email fas fa-envelope"></i>
+                        <i class="avatarLeft--whatsapp fab fa-whatsapp"></i>
+                    </div>
+                </div>
+                <div class="footerGroup__2">
+                    <div class="containerNav__menu">
+                        <ul class="nav--ul">
+                            <li class="nav--li"><a href="">Sobre mi</a></li>
+                            <li class="nav--li"><a href="">Portafolio</a></li>
+                            <li class="nav--li"><a href="">Servicios</a></li>
+                            <li class="nav--li"><a href="">Blog</a></li>
+                            <li class="nav--li"><a href="">Contacto</a></li>
+                        </ul>
+                    </div>        
+                </div>
+                <div class="footerGroup__3">
+                    <div class="footerGroup3--title">
+                        <p>Con <i class="fas fa-heart"></i> desde Lima - Perú</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div></div>
+        </div>
+
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+/*----- CONTACT ATOMS -----*/
+.contactTitle{
+
+    &--title{
+        @extend %fontsPoppins600;
+        color:$color_branding_3;
+        font-size: 28px;
+        line-height: 42px;  
+    }    
+}
+
+.contactDetailForm{
+
+    &--name,&--phone,&--proy,&--presu,&--text{
+        @extend %fontsRaleway400;
+        color: $color_base_1;
+        font-size: 13px;
+        line-height: 24px;  
+        cursor: pointer;
+        border : 1px solid $color_base_2;
+        border-radius: 8px;        
+        padding-left: 15px;        
+
+        &:hover{
+            border-color : $color_branding_2;
+        }
+    
+        &:focus{
+            border-color : $color_branding_1;
+        }
+    }
+
+    &--name,&--phone,&--proy,&--presu{
+        width: 308px;
+        height: 57px;
+        flex-grow: 1;
+    }
+    
+    &--text{
+        width: 100%;
+        height: 150px;
+        padding-top: 15px;  
+        resize: none;
+        flex-grow: 1;
+    }
+
+    &--button{
+        @extend %fontsRaleway700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #EDE2FA;
+        border: none;
+        background-color: $color_branding_1;
+        border-radius: 8px;
+        width: 144px;
+        height: 57px;
+    }
+
+    input::placeholder,textarea::placeholder {
+        @extend %fontsRaleway400;
+        color: $color_base_1;        
+        font-size: 13px;
+        line-height: 24px;                         
+      }
+}

@@ -1,0 +1,30 @@
+/*----- FOOTER MOLECULES -----*/
+.footerGroup{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+
+    &__1{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 20% minmax(60%,1fr) 20%);
+        margin-top: 35px;
+    }
+
+    &__2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    &__3{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 45px;
+        margin-bottom: 20px;
+    }
+
+}
+

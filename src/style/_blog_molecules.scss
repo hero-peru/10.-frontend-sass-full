@@ -1,0 +1,59 @@
+/*----- BLOG MOLECULES -----*/
+.blogTitle{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.blogDetail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: auto;
+    gap: 20px;
+    
+    &__column1,&__column2,&__column3,&__column4 .group1{
+        display: flex;
+        flex-direction: column;         
+        &:hover{
+            @extend %function_blog_active;
+        }
+    }
+    
+    &__column1{
+        width: 306px;
+        height: auto;
+    }
+
+    &__column2{
+        width: 154px;
+        height: auto;
+    }
+
+    &__column3{
+        width: 154px;
+        height: auto;
+    }
+
+    &__column4{
+        width: 308px;
+        height: auto;
+
+        .group1,.group2{
+            width: auto;
+            height: auto;    
+        }
+
+        .group2{
+            &__formSend{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                width: auto;
+                height: auto;
+            }
+        }
+    }
+}

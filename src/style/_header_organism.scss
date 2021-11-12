@@ -1,0 +1,6 @@
+/*----- HEADER ORGANISM -----*/
+.containerHeader{    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 15% minmax(70%,1fr) 15%);
+    grid-auto-rows: auto;
+}

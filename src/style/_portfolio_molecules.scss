@@ -1,0 +1,13 @@
+/*----- PORTFOLIO MOLECULES -----*/
+.portfolioTitle{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.portfolioDetail{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(224px,1fr));    
+    gap: 30px; 
+}

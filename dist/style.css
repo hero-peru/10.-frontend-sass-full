@@ -1,0 +1,670 @@
+/*----- VARIABLES -----*/
+/*----- SIZE ICON  -----*/
+/*----- PALETA DE COLORES -----*/
+/*----- RUTA IMAGE -----*/
+/*----- FONTS -----*/
+.avatarRight--cuadro1, .avatarRight--cuadro2, .avatarRight--buttonShared, .avatarRight--buttonTweet, .blogTitle--title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-style: normal; }
+
+.blogDetail__column1:hover div[class="blogDetail--title"], .blogDetail__column2:hover div[class="blogDetail--title"], .blogDetail__column3:hover div[class="blogDetail--title"], .blogDetail__column4 .group1:hover div[class="blogDetail--title"], .portfolioTitle--title, .serviceTitle--title, .blogDetail--title, .contactTitle--title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-style: normal; }
+
+.avatarLeft--texto1, .avatarLeft--texto2, .avatarLeft--texto3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-style: normal; }
+
+.blogDetail--text, .blogDetail--textExtra, .blogDetail--textSend, .contactDetailForm--name, .contactDetailForm--phone, .contactDetailForm--proy, .contactDetailForm--presu, .contactDetailForm--text, .contactDetailForm input::placeholder, .contactDetailForm textarea::placeholder, .footerGroup3--title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-style: normal; }
+
+.nav--li a, .footerGroup1--title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-style: normal; }
+
+.avatarLeft--texto4, .downCenter--texto {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-style: normal; }
+
+.blogDetail__column1:hover div[class="blogDetail--text"], .blogDetail__column2:hover div[class="blogDetail--text"], .blogDetail__column3:hover div[class="blogDetail--text"], .blogDetail__column4 .group1:hover div[class="blogDetail--text"], .avatarLeft--button, .blogDetail--buttonSend, .contactDetailForm--button {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-style: normal; }
+
+/*----- FUNCTION -----*/
+.blogDetail__column1:hover img, .blogDetail__column2:hover img, .blogDetail__column3:hover img, .blogDetail__column4 .group1:hover img {
+  border: 4px solid #6D0AD3;
+  border-radius: 8px; }
+
+.blogDetail__column1:hover div[class="blogDetail--title"], .blogDetail__column2:hover div[class="blogDetail--title"], .blogDetail__column3:hover div[class="blogDetail--title"], .blogDetail__column4 .group1:hover div[class="blogDetail--title"] {
+  color: #000;
+  font-size: 28px;
+  line-height: 42px;
+  border-left: 4px solid #6D0AD3;
+  padding-left: 10px; }
+
+.blogDetail__column1:hover div[class="blogDetail--text"], .blogDetail__column2:hover div[class="blogDetail--text"], .blogDetail__column3:hover div[class="blogDetail--text"], .blogDetail__column4 .group1:hover div[class="blogDetail--text"] {
+  color: #000;
+  font-size: 13px;
+  line-height: 26px; }
+
+/*----- HEADER -----*/
+/*----- HEADER ATOMS -----*/
+.nav--logo {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 60px;
+  height: 50px;
+  border: 0px;
+  border-style: none; }
+
+.nav--ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.nav--li {
+  list-style-type: none;
+  padding-left: 20px; }
+  .nav--li a {
+    font-size: 14px;
+    line-height: 16.44px;
+    text-decoration: none;
+    color: #262626;
+    font-weight: bold;
+    cursor: pointer; }
+  .nav--li a:hover {
+    color: #6D0AD3;
+    border-bottom: 5px solid #6D0AD3;
+    padding: 10px; }
+  .nav--li a:active {
+    color: #00CF95;
+    border-bottom: 5px dotted #00CF95;
+    font-weight: bold;
+    padding: 10px; }
+
+/*----- HEADER MOLECULES -----*/
+.containerNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  flex-wrap: wrap; }
+  .containerNav__menu {
+    display: flex;
+    flex-direction: row; }
+
+/*----- HEADER ORGANISM -----*/
+.containerHeader {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 15% minmax(70%, 1fr) 15%);
+  grid-auto-rows: auto; }
+
+/*----- AVATAR -----*/
+/*----- AVATAR ATOMS -----*/
+.avatarLeft--texto1 {
+  font-size: 16px;
+  line-height: 32px;
+  color: #262626;
+  width: 100%;
+  height: auto; }
+
+.avatarLeft--texto2 {
+  font-size: 32px;
+  line-height: 60px;
+  color: #262626;
+  width: 100%;
+  height: auto; }
+
+.avatarLeft--texto3 {
+  font-size: 40px;
+  line-height: 60px;
+  color: #00CF95;
+  width: 100%;
+  height: auto; }
+
+.avatarLeft--texto4 {
+  font-size: 13px;
+  line-height: 24px;
+  color: #262626;
+  border-left: 4px solid #00CF95;
+  width: auto;
+  height: auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 25px;
+  padding-right: 50px;
+  margin-top: 10px; }
+
+.avatarLeft--button {
+  font-size: 13px;
+  line-height: 24px;
+  background-color: #6D0AD3;
+  color: #EDE2FA;
+  border: none;
+  width: 162.87px;
+  height: 44px; }
+
+.avatarLeft--linkedin {
+  color: #0176B5;
+  font-size: 25px; }
+
+.avatarLeft--whatsapp {
+  color: #44C24F;
+  font-size: 25px; }
+
+.avatarLeft--github {
+  font-size: 25px; }
+
+.avatarLeft--codepen {
+  font-size: 25px; }
+
+.avatarLeft--email {
+  font-size: 25px; }
+
+.avatarCenter--circle {
+  width: 100%;
+  height: 100%;
+  background-color: #D1FFA2;
+  border-radius: 500px;
+  padding-right: 20px; }
+
+.avatarCenter--image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  border-style: none; }
+
+.avatarRight--cuadro1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  height: 20px;
+  border-top: 1px solid #808080;
+  border-left: 1px solid #808080;
+  border-right: 1px solid #808080;
+  border-bottom: 0px;
+  border-radius: 4px 4px 0 0;
+  background-color: #fff;
+  color: #262626;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box; }
+
+.avatarRight--cuadro2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  height: 20px;
+  border: none;
+  border-radius: 0 0 4px 4px;
+  background-color: #1877f2;
+  color: #fff;
+  width: 100%; }
+
+.avatarRight--buttonShared {
+  font-size: 10px;
+  height: 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #1877f2;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  width: 100%; }
+
+.avatarRight--buttonTweet {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  height: 30px;
+  border: none;
+  border-radius: 4px;
+  background-color: #1877f2;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  width: 100%; }
+
+.avatarRight--twitter {
+  font-size: 20px; }
+
+/*----- AVATAR MOLECULES -----*/
+.avatarDetail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px; }
+
+.avatarLeft {
+  display: flex;
+  flex-direction: column;
+  width: 440px;
+  height: auto; }
+  .avatarLeft .grupoButtonIcon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 35px;
+    width: 100%;
+    margin-top: 25px; }
+  .avatarLeft--icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px; }
+
+.avatarCenter {
+  width: 302px;
+  height: 302px; }
+
+.avatarRight {
+  width: 80px;
+  height: auto;
+  margin-top: 20px; }
+
+/*----- AVATAR ORGANISM -----*/
+.containerAvatar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 15% minmax(70%, 1fr) 15%);
+  grid-auto-rows: auto;
+  margin-top: 70px; }
+
+/*----- DOWN -----*/
+/*----- DOWN ATOMS -----*/
+.downCenter--icon {
+  font-size: 50px;
+  color: #00CF95; }
+
+.downCenter--texto {
+  font-size: 13px;
+  line-height: 24px;
+  color: #00CF95; }
+
+/*----- DOWN MOLECULES -----*/
+.downCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto; }
+
+/*----- DOWN ORGANISM -----*/
+.containerDown {
+  display: flex;
+  flex-direction: row;
+  margin-top: 65px; }
+
+/*----- PORTFOLIO -----*/
+/*----- PORTFOLIO ATOMS -----*/
+.portfolioTitle--title {
+  color: #0098EF;
+  font-size: 28px;
+  line-height: 42px; }
+
+.portfolioDetail--card {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  position: relative; }
+  .portfolioDetail--card img {
+    width: 100%;
+    height: 100%;
+    border: 4px solid #D1FFA2;
+    box-sizing: border-box; }
+  .portfolioDetail--card--imagen-item {
+    position: absolute;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 20px; }
+  .portfolioDetail--card:hover img {
+    border: 8px solid #00CF95;
+    border-radius: 8px; }
+  .portfolioDetail--card:hover img[class="portfolioDetail--card--imagen-item"] {
+    visibility: visible; }
+
+/*----- PORTFOLIO MOLECULES -----*/
+.portfolioTitle {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px; }
+
+.portfolioDetail {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(224px, 1fr));
+  gap: 30px; }
+
+/*----- PORTFOLIO ORGANISM -----*/
+.containerPortfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 15% minmax(70%, 1fr) 15%);
+  grid-auto-rows: auto;
+  margin-top: 25px; }
+
+/*----- SERVICE -----*/
+/*----- SERVICE ATOMS -----*/
+.serviceTitle--title {
+  color: #0098EF;
+  font-size: 28px;
+  line-height: 42px; }
+
+.serviceDetail--card {
+  width: 100%;
+  height: 100%;
+  cursor: pointer; }
+  .serviceDetail--card img {
+    width: 100%;
+    height: 100%;
+    border: 5px solid #D1FFA2; }
+  .serviceDetail--card img:hover {
+    border: 4px solid #6D0AD3;
+    border-radius: 8px; }
+
+/*----- SERVICE MOLECULES -----*/
+.serviceTitle {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px; }
+
+.serviceDetail {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(308px, 1fr));
+  gap: 30px; }
+
+/*----- SERVICE ORGANISM -----*/
+.containerService {
+  margin-top: 105px; }
+  .containerService__title {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 15% minmax(70%, 1fr) 15%);
+    grid-auto-rows: auto; }
+  .containerService__detail {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 25% minmax(50%, 1fr) 25%);
+    grid-auto-rows: auto; }
+
+/*----- BLOG -----*/
+/*----- BLOG ATOMS -----*/
+.blogTitle--title {
+  color: #0098EF;
+  font-size: 28px;
+  line-height: 42px; }
+
+.blogDetail--card {
+  width: auto;
+  height: auto; }
+  .blogDetail--card img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid #D1FFA2; }
+  .blogDetail--card .imagen--s {
+    height: 107px; }
+  .blogDetail--card .imagen--xl {
+    height: 207px; }
+
+.blogDetail--title {
+  color: #000;
+  font-size: 12px;
+  line-height: 18px; }
+
+.blogDetail--text {
+  color: #000;
+  font-size: 11px;
+  line-height: 20px; }
+
+.blogDetail--textExtra {
+  color: #262626;
+  font-size: 18px;
+  line-height: 27px; }
+
+.blogDetail--textMore {
+  color: #6D0AD3;
+  text-decoration: underline;
+  font-weight: bold; }
+
+.blogDetail--textSend {
+  padding-left: 15px;
+  border: 1px solid #C0C0C0;
+  border-radius: 8px 0 0 8px;
+  font-size: 13px;
+  line-height: 15.26px;
+  width: 181px;
+  flex-grow: 1;
+  height: 50px; }
+
+.blogDetail--buttonSend {
+  border: none;
+  border-radius: 0 8px 8px 0;
+  font-size: 13px;
+  line-height: 15.26px;
+  background-color: #6D0AD3;
+  color: #EDE2FA;
+  flex-grow: 1;
+  height: 50px; }
+
+/*----- BLOG MOLECULES -----*/
+.blogTitle {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px; }
+
+.blogDetail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: auto;
+  gap: 20px; }
+  .blogDetail__column1, .blogDetail__column2, .blogDetail__column3, .blogDetail__column4 .group1 {
+    display: flex;
+    flex-direction: column; }
+  .blogDetail__column1 {
+    width: 306px;
+    height: auto; }
+  .blogDetail__column2 {
+    width: 154px;
+    height: auto; }
+  .blogDetail__column3 {
+    width: 154px;
+    height: auto; }
+  .blogDetail__column4 {
+    width: 308px;
+    height: auto; }
+    .blogDetail__column4 .group1, .blogDetail__column4 .group2 {
+      width: auto;
+      height: auto; }
+    .blogDetail__column4 .group2__formSend {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: auto;
+      height: auto; }
+
+/*----- BLOG ORGANISM -----*/
+.containerBlog {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 15% minmax(70%, 1fr) 15%);
+  grid-auto-rows: auto;
+  margin-top: 113px; }
+
+/*----- CONTACT ATOMS -----*/
+.contactTitle--title {
+  color: #0098EF;
+  font-size: 28px;
+  line-height: 42px; }
+
+.contactDetailForm--name, .contactDetailForm--phone, .contactDetailForm--proy, .contactDetailForm--presu, .contactDetailForm--text {
+  color: #262626;
+  font-size: 13px;
+  line-height: 24px;
+  cursor: pointer;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding-left: 15px; }
+  .contactDetailForm--name:hover, .contactDetailForm--phone:hover, .contactDetailForm--proy:hover, .contactDetailForm--presu:hover, .contactDetailForm--text:hover {
+    border-color: #00CF95; }
+  .contactDetailForm--name:focus, .contactDetailForm--phone:focus, .contactDetailForm--proy:focus, .contactDetailForm--presu:focus, .contactDetailForm--text:focus {
+    border-color: #6D0AD3; }
+
+.contactDetailForm--name, .contactDetailForm--phone, .contactDetailForm--proy, .contactDetailForm--presu {
+  width: 308px;
+  height: 57px;
+  flex-grow: 1; }
+
+.contactDetailForm--text {
+  width: 100%;
+  height: 150px;
+  padding-top: 15px;
+  resize: none;
+  flex-grow: 1; }
+
+.contactDetailForm--button {
+  font-size: 16px;
+  line-height: 24px;
+  color: #EDE2FA;
+  border: none;
+  background-color: #6D0AD3;
+  border-radius: 8px;
+  width: 144px;
+  height: 57px; }
+
+.contactDetailForm input::placeholder, .contactDetailForm textarea::placeholder {
+  color: #262626;
+  font-size: 13px;
+  line-height: 24px; }
+
+/*----- CONTACT MOLECULES -----*/
+.contactTitle {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px; }
+
+.contactDetailForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: auto;
+  height: auto; }
+  .contactDetailForm__groupName {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    flex-wrap: wrap;
+    gap: 20px; }
+  .contactDetailForm__groupProject {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px; }
+  .contactDetailForm__groupText {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap; }
+  .contactDetailForm__groupButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 20px; }
+
+/*----- CONTACT ORGANISM -----*/
+.containerContact {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 15% minmax(70%, 1fr) 15%);
+  grid-auto-rows: auto;
+  margin-top: 113px; }
+
+.contactDetail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+/*----- FOOTER -----*/
+/*----- FOOTER ATOMS -----*/
+.footer hr {
+  height: 5px;
+  background-color: #00CF95;
+  border: none; }
+
+.footerGroup1--title {
+  color: #00CF95;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center; }
+
+.footerGroup3--title {
+  color: #262626;
+  font-size: 12px;
+  line-height: 14.09px; }
+  .footerGroup3--title i[class="fas fa-heart"] {
+    color: red; }
+
+/*----- FOOTER MOLECULES -----*/
+.footerGroup {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto; }
+  .footerGroup__1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 20% minmax(60%, 1fr) 20%);
+    margin-top: 35px; }
+  .footerGroup__2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px; }
+  .footerGroup__3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 20px; }
+
+/*----- FOOTER ORGANISM -----*/
+.footer {
+  margin-top: 50px; }
+
+.containerFooter {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 15% minmax(70%, 1fr) 15%);
+  grid-auto-rows: auto; }
+
+@media (min-width: 1440px) {
+  .portfolioDetail {
+    grid-template-columns: repeat(4, minmax(224px, 1fr)); } }

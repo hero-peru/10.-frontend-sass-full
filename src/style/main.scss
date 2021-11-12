@@ -1,0 +1,18 @@
+@import './variables';
+@import './fonts';
+@import './function';
+@import './header';
+@import './avatar';
+@import './down';   
+@import './portfolio';
+@import './service';
+@import './blog';
+@import './contact';
+@import './footer';
+
+
+@media(min-width:1440px){
+    .portfolioDetail{       
+        grid-template-columns: repeat(4,minmax(224px,1fr));        
+    }
+}

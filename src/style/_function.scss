@@ -1,0 +1,21 @@
+/*----- FUNCTION -----*/
+%function_blog_active{
+        img{
+            border : 4px solid $color_branding_1; 
+            border-radius: 8px
+        }
+        div[class="blogDetail--title"]{
+            @extend %fontsPoppins600;
+            color:$color_base_0;
+            font-size: 28px;
+            line-height: 42px;
+            border-left: 4px solid $color_branding_1;
+            padding-left: 10px;
+        }
+        div[class="blogDetail--text"]{
+            @extend %fontsRaleway700;
+            color:$color_base_0;
+            font-size: 13px;
+            line-height: 26px;
+        }
+}

@@ -1,0 +1,45 @@
+/*----- AVATAR MOLECULES -----*/
+.avatarDetail{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+
+.avatarLeft{
+    display: flex;
+    flex-direction: column;    
+    width: 440px;
+    height: auto;
+
+    .grupoButtonIcon{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 35px;
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    &--icon{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
+
+.avatarCenter{
+    width: 302px;
+    height: 302px;   
+}
+
+.avatarRight{
+    width: 80px;
+    height: auto;   
+    margin-top: 20px;
+}

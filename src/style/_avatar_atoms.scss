@@ -1,0 +1,177 @@
+/*----- AVATAR ATOMS -----*/
+.avatarLeft{
+
+    &--texto1{
+        @extend %fontsPoppins700;
+        font-size: 16px;
+        line-height: 32px;
+        color: $color_base_1;
+        width: 100%;
+        height: auto;
+    }    
+
+    &--texto2{
+        @extend %fontsPoppins700;
+        font-size: 32px;
+        line-height: 60px;
+        color: $color_base_1;                
+        width: 100%;
+        height: auto;
+    }    
+
+    &--texto3{
+        @extend %fontsPoppins700;
+        font-size: 40px;
+        line-height: 60px;
+        color: $color_branding_2;
+        width: 100%;
+        height: auto;
+    } 
+
+    &--texto4{
+        @extend %fontsRaleway600;
+        font-size: 13px;
+        line-height: 24px;
+        color: $color_base_1;
+        border-left: 4px solid $color_branding_2;
+        width: auto;
+        height: auto;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 25px;
+        padding-right: 50px;
+        margin-top: 10px;
+    }
+
+    &--button{
+        @extend %fontsRaleway700;
+        font-size: 13px;
+        line-height: 24px;   
+        background-color: $color_branding_1;
+        color: $color_avatar_left_button;
+        border: none;
+        width: 162.87px;
+        height: 44px;
+    }
+
+    &--linkedin{
+        color: $color_avatar_left_icon_linkedin;     
+        font-size: $avatar_left_size_icon;   
+    }
+
+    &--whatsapp{
+        color: $color_avatar_left_icon_whatsapp;
+        font-size: $avatar_left_size_icon;
+    }
+
+    &--github{
+        font-size: $avatar_left_size_icon;   
+    }
+
+    &--codepen{
+        font-size: $avatar_left_size_icon;
+    }
+
+    &--email{
+        font-size: $avatar_left_size_icon;
+    }
+
+}
+
+.avatarCenter{
+    
+    &--circle{
+        width: 100%;
+        height: 100%;
+        background-color: $color_branding_4;
+        border-radius: 500px ;
+        padding-right: 20px;
+    }
+
+    &--image{
+        //background: url("#{$ruta_image}#{$image_avatar}");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center ;
+        width: 100%;
+        height: 100%;    
+        border: 0px;
+        border-style: none;        
+    }
+
+}
+
+.avatarRight {
+
+    &--cuadro1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        @extend %fontsPoppins500;
+        font-size: 10px;
+        height: 20px;
+        border-top: 1px solid $color_base_2;
+        border-left: 1px solid $color_base_2;
+        border-right: 1px solid $color_base_2;
+        border-bottom: 0px;
+        border-radius: 4px 4px 0 0;
+        background-color: #fff;
+        color: $color_base_1;
+        text-align: center;     
+        width: 100%;   
+        box-sizing: border-box;
+    }
+
+    &--cuadro2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        @extend %fontsPoppins500;
+        font-size: 10px;
+        height: 20px;
+        border: none;
+        border-radius: 0 0 4px 4px;
+        background-color: #1877f2;
+        color: #fff;
+        width: 100%;   
+    }
+
+    &--buttonShared{              
+        @extend %fontsPoppins500;
+        font-size: 10px;
+        height: 20px;
+        border: none;
+        border-radius: 4px;
+        background-color: #1877f2;
+        color: #fff;
+        text-align: center;
+        margin-top: 10px;
+        width: 100%;   
+    }
+
+    &--buttonTweet{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        @extend %fontsPoppins500;
+        font-size: 12px;
+        height: 30px;
+        border: none;
+        border-radius: 4px;
+        background-color: #1877f2;
+        color: #fff;
+        text-align: center;
+        margin-top: 10px;
+        width: 100%;   
+    }
+
+    &--twitter{
+        font-size: $avatar_right_size_icon_twitter;        
+    }
+
+}
